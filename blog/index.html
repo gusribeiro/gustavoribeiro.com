@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="blog">
+	{% include header.html %}
+	<main class="home">
+		<header class="main-header">
+			<h1 class="main-title">...</h1>
+			<span class="main-image"></span>
+		</header>
+		<div class="main-content">
+			<div class="wrap">
+				<ul class="posts">
+					{% for post in site.posts %}
+						<li>
+							<span>{{ post.date | date: "%d.%m.%Y"}}</span>
+							<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</main>
+</div>
