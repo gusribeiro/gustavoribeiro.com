@@ -1,0 +1,40 @@
+* {margin:0;padding:0;line-height:100%;font-family:Roboto, sans-serif;-webkit-font-smoothing:antialiased;}
+li {list-style:none;}
+
+.site-header {position:fixed;top:0;display:flex;justify-content:space-between;align-items:center;width:100%;z-index:5;}
+
+.logo {padding:15px 20px;font:700 22px Roboto Condensed, sans-serif;color:#fff;text-decoration:none;}
+.logo span {font-weight:400;color:#999;}
+
+.nav ul {display:inline-flex;}
+.nav ul li {display:list-item;}
+.nav ul li a {display:inline-block;padding:19px 20px;font:300 14px Roboto Condensed, sans-serif;color:#fff;text-decoration:none;}
+
+.main-header {display:flex;align-items:center;justify-content:center;min-height:500px;height:100vh;background:#000;}
+
+.main-title {margin-top:38px;padding:0 20px;max-width:70%;font-size:60px;line-height:88px;color:#fff;text-align:center;z-index:3;}
+
+.main-image {position:fixed;top:0;width:100%;height:100%;opacity:.6;background-repeat:no-repeat;background-position:center center;background-size:cover;}
+.main-image::after {content:'';position:absolute;width:100%;height:100%;left:0;top:0;z-index:3;background-image:linear-gradient(180deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 80%,rgba(0,0,0,.7));}
+
+.main-content {position:relative;padding:100px 0;background:#fff;}
+.main-content .wrap {max-width:700px;margin:0 auto;padding:0 20px;}
+.main-content a {color:#09f;transition:.3s;}
+.main-content a:hover {color:#addeff;}
+
+.home .main-image {background-image:url(/assets/img/bg-home.jpg);}
+
+.section-title {margin-bottom:40px;font-size:36px;text-align:center;}
+
+.about-me p {font-weight:300;font-size:20px;line-height:45px;}
+
+.social {display:flex;justify-content:space-around;align-items:center;padding-top:100px;}
+.social ul {display:inline-flex;}
+.social li {display:list-item;padding:20px;}
+.social a {display:inline-block;width:30px;height:30px;text-indent:-9999px;background-repeat:no-repeat;background-size:cover;}
+.social .github {background-image:url(/assets/img/github-logo.svg);}
+.social .linkedin {background-image:url(/assets/img/linkedin-logo.svg);}
+
+/*.recent-posts {padding-top:100px;}*/
+
+.blog .main-image {background-image:url(/assets/img/bg-blog.jpg);}
