@@ -6,12 +6,23 @@ layout: default
 	{% include header.html %}
 	<main class="home">
 		<header class="main-header">
-			<h1 class="main-title">...</h1>
+			<h1 class="main-title">projetos, freelas etc.</h1>
 			<span class="main-image"></span>
 		</header>
 		<div class="main-content">
 			<div class="wrap">
-
+				{% if site.categories.portfolio == null %}
+					<p>Nenhum conteúdo a ser exibido.</p>
+				{% else %}
+					<ul class="posts">
+						{% for post in site.portfolio %}
+							<li>
+								<span>{{ post.date | date: "%d.%m.%Y"}}</span>
+								<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+							</li>
+						{% endfor %}
+					</ul>
+				{% endif %}
 			</div>
 		</div>
 	</main>
