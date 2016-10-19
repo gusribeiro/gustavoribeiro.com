@@ -1,4 +1,5 @@
 # Site Configuration
+timezone: America/Sao_Paulo
 title: Gustavo Ribeiro
-description: "Desenvolvedor Frontend, freelancer e fotógrafo nas horas vagas."
-url: "https://gustavoribeiro.com"
+description: Desenvolvedor Frontend, freelancer e fotógrafo nas horas vagas.
+url: https://gustavoribeiro.com
