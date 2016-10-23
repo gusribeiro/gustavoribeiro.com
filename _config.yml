@@ -5,6 +5,6 @@ title: Gustavo Ribeiro
 description: Desenvolvedor Frontend, freelancer e fotógrafo nas horas vagas.
 url: https://gustavoribeiro.com
 
-permalink: /:categories/:year/:month/:title.html
+permalink: /:categories/:title.html
 
 highlighter: rouge
