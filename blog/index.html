@@ -5,7 +5,7 @@ layout: default
 {% include header.html %}
 <main class="blog">
 	<header class="main-header">
-		<h1 class="main-title">vamos falar de coisa boa?</h1>
+		<h1 class="main-title">códigos, fotografia etc</h1>
 		<span class="main-image"></span>
 	</header>
 	<div class="main-content">
@@ -13,14 +13,22 @@ layout: default
 			{% if site.categories.blog == null %}
 				<p>Nenhum conteúdo a ser exibido no momento.</p>
 			{% else %}
-				<ul class="posts">
-					{% for post in site.posts %}
-						<li>
-							<span>{{ post.date | date: "%d.%m.%Y"}}</span>
-							<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-						</li>
-					{% endfor %}
-				</ul>
+				{% for post in site.posts %}
+					{% assign currentdate = post.date | date: "%Y" %}
+
+
+					{% if currentdate != date %}
+						{% unless forloop.first %}</ul>{% endunless %}
+						<h2 class="section-title">{{ currentdate }}</h2>
+						<ul class="post-list">
+						{% assign date = currentdate %}
+					{% endif %}
+					<li>
+						<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+						<span>{{ post.date | date: "%b, %d" }}</span>
+					</li>
+					{% if forloop.last %}</ul>{% endif %}
+				{% endfor %}
 			{% endif %}
 		</div>
 	</div>

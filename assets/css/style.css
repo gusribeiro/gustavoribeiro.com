@@ -4,6 +4,7 @@ li {list-style:none;}
 h2, h3, h4, h5, h6 {margin:40px 0 20px 0;}
 blockquote {margin:20px 0 25px 0;padding:5px 15px;border-left:solid 4px #ccc;}
 blockquote p {margin:0 !important;}
+a:hover {opacity:.5;}
 
 .site-header {position:fixed;top:0;display:flex;justify-content:space-between;align-items:center;width:100%;z-index:5;}
 
@@ -16,7 +17,7 @@ blockquote p {margin:0 !important;}
 
 .main-header {display:flex;align-items:center;justify-content:center;min-height:500px;height:100vh;background:#333;}
 
-.main-title {margin-top:0;padding:0 20px;max-width:70%;font-weight:700;font-size:6vmax;line-height:150%;color:#fff;text-align:center;text-shadow:2px 2px rgba(0, 0, 0, .5);z-index:3;}
+.main-title {margin-top:0;padding:0 20px;max-width:70%;font-weight:700;font-size:6vmax;font-family:Roboto Condensed;line-height:150%;color:#fff;text-align:center;text-shadow:2px 2px rgba(0, 0, 0, .5);z-index:3;}
 
 .main-image {position:fixed;left:0;top:0;width:100%;height:100%;opacity:.6;background-repeat:no-repeat;background-position:center center;background-size:cover;}
 .main-image:after {content:'';position:absolute;width:100%;height:100%;left:0;top:0;z-index:3;background-image:linear-gradient(180deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 80%,rgba(0,0,0,.7));}
@@ -24,11 +25,15 @@ blockquote p {margin:0 !important;}
 .main-content {position:relative;padding:100px 0;background:#fff;}
 .main-content .wrap {max-width:800px;margin:0 auto;padding:0 20px;}
 .main-content a {color:#09f;transition:.3s;}
-.main-content a:hover {color:#addeff;}
 
 .home .main-image {background-image:url(/assets/img/bg-home.jpg);}
 
-.section-title {margin-bottom:40px;font-size:36px;text-align:center;}
+.home section {padding-top:60px;}
+.home section:first-child {padding-top:0;}
+
+.home .post-list a {font-weight:400;font-size:20px;}
+
+.section-title {margin-bottom:40px;font:700 40px Roboto Condensed;text-align:center;}
 
 .about-me p {font-weight:300;font-size:20px;line-height:45px;}
 .about-me p span {font-weight:400;}
@@ -46,12 +51,17 @@ blockquote p {margin:0 !important;}
 
 .blog .main-image, .post .main-image {background-image:url(/assets/img/bg-blog.jpg);}
 
+.post-list li {display:flex;justify-content:space-between;align-items:center;padding:40px 0;border-top:solid 1px #eee;}
+.post-list li:first-child {border-top:none;}
+.post-list a {padding-right:40px;font:700 24px Roboto;color:#333;text-decoration:none;}
+.post-list span {font-size:14px;color:#ccc;text-transform:uppercase;}
+
 .post header p {margin-bottom:5px;color:#ccc;}
-.post article {margin:30px 0;}
+.post article {margin:30px 0;font-size:20px;}
 .post article * {line-height:20px;}
 .post article p {margin:20px 0;line-height:150%;}
 .post article ul, .post article ol, .post article dl {margin:20px 40px;}
 .post li {list-style:disc;}
-.post .highlight {margin:20px 0 25px 0;padding:10px 20px;font-family:monospace;border:dashed 1px #ccc;background:#fff;overflow:auto;}
+.post .highlight {margin:20px 0 25px 0;padding:10px 20px;font-size:14px;font-family:monospace;border:dashed 1px #ccc;background:#fff;overflow:auto;}
 
 #disqus_thread {margin-top:80px;}

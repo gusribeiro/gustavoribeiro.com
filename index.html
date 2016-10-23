@@ -14,16 +14,21 @@ layout: default
 				<h2 class="section-title">Quem sou?</h2>
 				<p>Olá! Me chamo Gustavo Ribeiro e sou desenvolvedor front-end. Carioca da gema, já trabalhei no <span>UOL</span>, <span>Zoom</span>, <span>InfoGlobo</span> e atualmente trabalho na <span>Reserva</span>. Além disso, sou fotógrafo e, junto com minha esposa, criamos a <a href="http://doisgraos.com">DoisGrãos Fotografia</a>.</p>
 			</section>
-			<!-- <section class="recent-posts">
-				<h2 class="section-title">Artigos recentes</h2>
-				<ul>
-					<li><a href="#">lalala</a></li>
-					<li><a href="#">lalala</a></li>
-					<li><a href="#">lalala</a></li>
-					<li><a href="#">lalala</a></li>
-					<li><a href="#">lalala</a></li>
-				</ul>
-			</section> -->
+
+			{% if site.categories.blog != null %}
+				<section class="recent-posts">
+					<h2 class="section-title">Artigos recentes</h2>
+					<ul class="post-list">
+						{% for post in site.posts limit:3 %}
+							<li>
+								<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+								<span>{{ post.date | date: "%b, %d" }}</span>
+							</li>
+						{% endfor %}
+					</ul>
+				</section>
+			{% endif %}
+
 			<section class="social">
 				<ul>
 					<li><a href="https://github.com/gusribeiro" rel="nofollow"><img src="/assets/img/github-logo.svg" /></a></li>

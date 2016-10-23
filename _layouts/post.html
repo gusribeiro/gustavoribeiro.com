@@ -6,7 +6,7 @@ layout: default
 <main class="post">
 	<header class="main-header">
 		<h1 class="main-title">{{ page.title }}</h1>
-		<span class="main-image" {% if page.postimage %}style="background-image:url({{ page.postimage }});"{% endif %}></span>
+		<span class="main-image" {% if page.postimage %}style="background-image:url(/assets/img/posts/{{ page.date | date: "%Y%m%d" }}.jpg);"{% endif %}></span>
 	</header>
 	<div class="main-content">
 		<div class="wrap">

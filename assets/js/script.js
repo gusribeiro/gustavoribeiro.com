@@ -1,7 +1,7 @@
 $(function() {
 	var siteHeader = $('header.site-header');
 	var mainTitle = $('h1.main-title');
-	var range = $('header.main-header').outerHeight() / 2;
+	var range = $('header.main-header').outerHeight() / 1.5;
 
 	$(window).on('scroll', function() {
 		var scrollTop = $(window).scrollTop();

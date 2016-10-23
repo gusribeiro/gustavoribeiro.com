@@ -2,8 +2,8 @@
 	<a href="/" class="logo">gustavo<span>ribeiro</span></a>
 	<nav class="nav">
 		<ul>
-			<li><a href="/portfolio">portfolio</a></li>
-			<li><a href="/blog">blog</a></li>
+			{% if site.categories.portfolio != null %}<li><a href="/portfolio">portfolio</a></li>{% endif %}
+			{% if site.categories.blog != null %}<li><a href="/blog">blog</a></li>{% endif %}
 		</ul>
 	</nav>
 </header>
