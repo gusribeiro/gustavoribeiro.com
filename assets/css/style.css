@@ -62,9 +62,8 @@ a:hover {opacity:.5;}
 .post article p {margin:40px 0;line-height:150%;}
 .post article ul, .post article ol, .post article dl {margin:20px 40px;}
 .post li {list-style:disc;}
-.post .highlight {margin:40px 0 45px 0;padding:10px 20px;font-size:14px;font-family:monospace;border:dashed 1px #ccc;background:#fff;overflow:auto;}
+.post .highlight {margin:40px 0 45px 0;padding:10px 20px;font-size:14px;font-family:monospace !important;border:dashed 1px #ccc;background:#fff;overflow:auto;}
 
-.highlighter-rouge * {font-family:monospace;}
 code.highlighter-rouge {padding:2px 5px;font-family:monospace;font-size:16px;color:#d21c54;border:solid 1px #ddd;border-radius:3px;background:#f6f6f6;}
 
 #disqus_thread {margin-top:80px;}
