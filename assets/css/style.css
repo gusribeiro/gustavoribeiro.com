@@ -2,7 +2,7 @@
 li {list-style:none;}
 
 h2, h3, h4, h5, h6 {margin:40px 0 20px 0;}
-blockquote {margin:20px 0 25px 0;padding:5px 15px;border-left:solid 4px #ccc;}
+blockquote {margin:20px 0 25px 0;padding:5px 15px;font-style:italic;font-size:16px;border-left:solid 4px #ccc;}
 blockquote p {margin:0 !important;}
 a:hover {opacity:.5;}
 
