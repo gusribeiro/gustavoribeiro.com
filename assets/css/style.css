@@ -64,4 +64,6 @@ a:hover {opacity:.5;}
 .post li {list-style:disc;}
 .post .highlight {margin:40px 0 45px 0;padding:10px 20px;font-size:14px;font-family:monospace;border:dashed 1px #ccc;background:#fff;overflow:auto;}
 
+code.highlighter-rouge {padding:2px 5px;font-family:monospace;font-size:16px;color:#d21c54;border:solid 1px #ddd;border-radius:3px;background:#f6f6f6;}
+
 #disqus_thread {margin-top:80px;}
