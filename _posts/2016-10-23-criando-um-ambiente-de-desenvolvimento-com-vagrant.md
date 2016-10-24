@@ -38,7 +38,7 @@ Vagrant.configure(2) do |config|
 end
 ```
 
-O `2`, na primeira linha, representa a versão de configuração do objeto `config` que será usada.\\
+O `2`, na primeira linha, representa a versão de configuração do objeto `config` que será usada.
 
 > Atualmente existem apenas duas versões: `1` e `2`. A versão `1` são configurações utilizadas no Vagrant 1.0.x e a versão `2` para 1.1+ até 2.0.x.
 
