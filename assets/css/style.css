@@ -1,8 +1,8 @@
 * {margin:0;padding:0;line-height:100%;font-family:Roboto, sans-serif;-webkit-font-smoothing:antialiased;}
 li {list-style:none;}
 
-h2, h3, h4, h5, h6 {margin:40px 0 20px 0;}
-blockquote {margin:20px 0 25px 0;padding:5px 15px;font-style:italic;font-size:16px;border-left:solid 4px #ccc;}
+h2, h3, h4, h5, h6 {margin:80px 0 40px 0;}
+blockquote {margin:40px 0 45px 0;padding:5px 15px;font-style:italic;font-size:16px;border-left:solid 4px #ccc;}
 blockquote p {margin:0 !important;}
 a:hover {opacity:.5;}
 
@@ -59,9 +59,9 @@ a:hover {opacity:.5;}
 .post header p {margin-bottom:5px;color:#ccc;}
 .post article {margin:30px 0;font-size:20px;}
 .post article * {line-height:20px;}
-.post article p {margin:20px 0;line-height:150%;}
+.post article p {margin:40px 0;line-height:150%;}
 .post article ul, .post article ol, .post article dl {margin:20px 40px;}
 .post li {list-style:disc;}
-.post .highlight {margin:20px 0 25px 0;padding:10px 20px;font-size:14px;font-family:monospace;border:dashed 1px #ccc;background:#fff;overflow:auto;}
+.post .highlight {margin:40px 0 45px 0;padding:10px 20px;font-size:14px;font-family:monospace;border:dashed 1px #ccc;background:#fff;overflow:auto;}
 
 #disqus_thread {margin-top:80px;}
