@@ -7,7 +7,7 @@ excerpt: 'Aprenda a criar formulários acessíveis.'
 postimage: false
 comments: true
 date: 2011-06-01 09:00:00
-lastmod: 2011-06-01 09:00:00
+lastmod: 2016-10-27 09:00:00
 ---
 
 Falar sobre formulários acessíveis se tornou meio difícil por ser um assunto que cada um poderá interpretar de uma maneira diferente. Alguns dizem que o correto é criarmos o formulário utilizando listas desordenadas `ul`, outros já falam que o correto seria utilizarmos parágrafos `p`. Utilizar `p` ou `ul`? Escolha um e seja feliz. 

@@ -7,7 +7,7 @@ excerpt: 'Saiba a forma correta de utilizar as listas (ul, ol e dl) no html.'
 postimage: false
 comments: true
 date: 2011-07-27 09:00:00
-lastmod: 2011-07-27 09:00:00
+lastmod: 2016-10-27 09:00:00
 ---
 
 Estarei começando hoje uma série de, podemos dizer tutoriais, explicações sobre o uso de cada tag xHTML e CSS. Cada tópico terá uma nomeclatura bastante direta sobre o assunto abordado, então vamos ao que interessa realmente.
