@@ -2,8 +2,8 @@
 layout: post
 category: blog
 tags: 
-title: Criando um ambiente de desenvolvimento com Vagrant.
-excerpt: Aprenda a configurar um ambiente de desenvolvimento utilizando o Vagrant e o VirtualBox.
+title: 'Criando um ambiente de desenvolvimento com Vagrant.'
+excerpt: 'Aprenda a configurar um ambiente de desenvolvimento utilizando o Vagrant e o VirtualBox.'
 postimage: true
 comments: true
 date: 2016-10-23 21:00:00
