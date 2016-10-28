@@ -8,7 +8,6 @@ postimage: false
 comments: true
 date: 2010-08-05 09:00:00
 lastmod: 2016-10-27 09:00:00
-redirect_from: 'https://gustavoribeiro.com/blog/2015/interpretando-arquivos-xml-com-jquery.html'
 ---
 
 A alguns dias atrás estive a procura de soluções simples e práticas para se ler as informações de um arquivo xml a partir do jQuery. Sabendo da dificuldade de se achar conteúdos relevantes em nossa lingua nativa para os que não entendem lhufas de inglês, resolvi escrever esse artigo em prol de facilitar o entendimento de todos, então chega de conversa e vamos ao que interessa.

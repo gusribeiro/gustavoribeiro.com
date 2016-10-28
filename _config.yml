@@ -8,6 +8,3 @@ url: https://gustavoribeiro.com
 permalink: /:categories/:title.html
 
 highlighter: rouge
-
-gems:
-  - jekyll-redirect-from
