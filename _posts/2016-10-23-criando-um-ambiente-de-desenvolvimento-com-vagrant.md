@@ -8,7 +8,7 @@ postimage: true
 comments: true
 date: 2016-10-23 21:00:00
 lastmod: 2016-10-23 21:00:00
-redirect_from: https://gustavoribeiro.com/blog/2015/criando-um-ambiente-de-desenvolvimento-com-vagrant.html
+redirect_from: 'https://gustavoribeiro.com/blog/2015/criando-um-ambiente-de-desenvolvimento-com-vagrant.html'
 ---
 
 Alguns desenvolvedores já conhecem o [Vagrant][vagrant] e os benefícios de que eles nos traz para o desenvolvimento em geral, como:
