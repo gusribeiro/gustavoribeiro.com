@@ -7,7 +7,7 @@ excerpt: '10 erros mais comuns na hora de desenvolver um site.'
 postimage: false
 comments: true
 date: 2010-07-29 09:00:00
-lastmod: 2016-10-27 09:00:00
+lastmod: 2010-07-29 09:00:00
 ---
 
 Depois de anos trabalhando como desenvolvedor de front-end, lendo livros e estudando sobre os padrões W3C, resolvi postar aqui no blog uma lista dos 10 erros mais comuns na hora de desenvolver um site seguidos de dicas que incluem uma escrita válida, semântica e sem as conhecidas tags depreciadas.

@@ -7,7 +7,7 @@ excerpt: 'Entenda como utilizar e para que serve a tag abbr.'
 postimage: false
 comments: true
 date: 2011-05-25 09:00:00
-lastmod: 2016-10-27 09:00:00
+lastmod: 2011-05-25 09:00:00
 ---
 
 Abreviação já se auto-explica o que é então vou ser rápido e explicar a diferença entre abreviações e acrônimos.

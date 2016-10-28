@@ -7,7 +7,7 @@ excerpt: 'Aprenda a criar formulários acessíveis utilizando as tags label e fo
 postimage: false
 comments: true
 date: 2011-06-08 09:00:00
-lastmod: 2016-10-27 09:00:00
+lastmod: 2011-06-08 09:00:00
 ---
 
 Quem nunca ficou irado ao ter que preencher um formulário e só conseguir clicar em cima da bolinha – radio button – de cada opção para fazer sua escolha? Sim, isso realmente irrita. Para isso que existe o atributo `for` para os nossos form label. Ok, o que seria esse tal de `for`.

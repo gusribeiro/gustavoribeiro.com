@@ -7,7 +7,7 @@ excerpt: 'Tabelas acessíves. Para que e quando utilizá-las'
 postimage: false
 comments: true
 date: 2011-04-27 09:00:00
-lastmod: 2016-10-27 09:00:00
+lastmod: 2011-04-27 09:00:00
 ---
 
 Nosso assunto de hoje, dando sequencia ao tutorial xhtml, será sobre tabelas. Vamos falar um pouco sobre tabelas e como tornar nossa tabela acessível.
