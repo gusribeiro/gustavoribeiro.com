@@ -19,4 +19,11 @@ $(function() {
 			mainTitle.css({'opacity': 1});
 		}
 	});
+
+	var date = new Date();
+	var age = new Date().getFullYear() - 1984;
+	if (date.getMonth() < 4 || (date.getMonth() <= 4 && date.getDate() < 15)) {
+		age--;
+	}
+	document.getElementById('age').innerHTML = age;
 });
