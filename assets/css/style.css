@@ -37,6 +37,7 @@ a:hover {opacity:.5;}
 
 .about-me p {font-weight:300;font-size:20px;line-height:300%;}
 .about-me p span {font-weight:400;}
+.about-me p #age {font-weight:300;}
 
 .social {display:flex;justify-content:space-around;align-items:center;padding-top:100px;}
 .social ul {display:inline-flex;}
