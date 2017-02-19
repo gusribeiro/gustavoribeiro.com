@@ -13,7 +13,7 @@ layout: default
 			{% if site.categories.blog == null %}
 				<p>Nenhum conteúdo a ser exibido no momento.</p>
 			{% else %}
-				{% for post in site.posts %}
+				{% for post in site.categories.blog %}
 					{% assign currentdate = post.date | date: "%Y" %}
 
 
