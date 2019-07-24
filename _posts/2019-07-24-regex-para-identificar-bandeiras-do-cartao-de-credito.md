@@ -4,7 +4,7 @@ category: blog
 tags:
 title: 'Regex para identificar bandeiras do cartão de crédito'
 excerpt: 'Regex para identificar bandeiras do cartão de crédito'
-postimage: false
+postimage: true
 comments: true
 date: 2019-07-24 10:00:00
 lastmod: 2019-07-24 10:00:00
